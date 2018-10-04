@@ -1,0 +1,15 @@
+button{
+    margin: 5px;
+}
+
+body{
+    background-image: url("../images/universe.jpg");
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 55px;
+}
+
