@@ -54,7 +54,7 @@ $("#find-hero").on("click", function (event) {
 function retreiveInfo() {
     var heroData = $(this).attr("hero-value");
     // connect gif site to ajax
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + heroData + "&api_key=LAZZ4Kv6bUYgx6pN49WB4jrKUe3L4mZZ&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + heroData + "&api_key=LAZZ4Kv6bUYgx6pN49WB4jrKUe3L4mZZ&limit=10";
 
     $.ajax({
         url: queryURL,
